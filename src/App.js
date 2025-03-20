@@ -6,7 +6,7 @@ import Featured from "./components/Featured.jsx";
 import Discounted from "./components/Discounted.jsx";
 import Explore from "./components/Explore.jsx";
 import Footer from "./components/Footer.jsx";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import Books from "./pages/Books.jsx";
 import { books } from "./data";
