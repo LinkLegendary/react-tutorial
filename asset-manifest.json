@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-tutorial/static/css/main.fed7b952.css",
+    "main.js": "/react-tutorial/static/js/main.c01d614f.js",
+    "static/js/453.adad6bf2.chunk.js": "/react-tutorial/static/js/453.adad6bf2.chunk.js",
+    "static/media/Undraw_Books.svg": "/react-tutorial/static/media/Undraw_Books.64f45ed25262241aba12eff6dcb25d88.svg",
+    "static/media/Library.svg": "/react-tutorial/static/media/Library.70d0a6a90c21c295982ded03f9ea8615.svg",
+    "index.html": "/react-tutorial/index.html",
+    "static/media/wave.svg": "/react-tutorial/static/media/wave.42edd5970e3619090a0f.svg",
+    "main.fed7b952.css.map": "/react-tutorial/static/css/main.fed7b952.css.map",
+    "main.c01d614f.js.map": "/react-tutorial/static/js/main.c01d614f.js.map",
+    "453.adad6bf2.chunk.js.map": "/react-tutorial/static/js/453.adad6bf2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fed7b952.css",
+    "static/js/main.c01d614f.js"
+  ]
+}
