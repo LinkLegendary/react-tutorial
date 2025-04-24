@@ -11,6 +11,7 @@ import BookInfo from "./pages/BookInfo.jsx";
 import Cart from "./pages/Cart.jsx";
 import { useEffect, useState } from "react";
 
+
 function App() {
   const [cart, setCart] = useState([]);
 
@@ -33,14 +34,14 @@ useEffect(() => {
     <Router>
       <div>
         <Nav />
-
+       
         <Route path="/" exact component={Home} />
-        <Route path="/books" exact render={() => <Books books={books} />} />
+        <Route path="/books" exact render={ () => <Books books={books} />} />
         <Route
           path="/books/:id"
-          render={() => <BookInfo books={books} addTocart={addTocart} />}
+          render={() => <BookInfo books={books} addTocart={addTocart} cart={cart} />}
         />
-        <Route path="/cart" render={() => <Cart books={books} />} />
+        <Route path="/cart" render={() => <Cart books={books}  />} />
 
         <Footer />
       </div>
