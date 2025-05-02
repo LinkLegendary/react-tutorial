@@ -8,9 +8,11 @@ const Book = ({ book }) => {
   const [img, setImg] = useState();
 
   const mountedRef = useRef(true);
+  
 
   useEffect(() => {
     const image = new Image();
+    
     image.src = book.url;
     image.onload = () => {
       setTimeout(() => {
@@ -18,7 +20,7 @@ const Book = ({ book }) => {
            setImg(image);
         }
         
-      }, 300)
+      },300)
      
     };
     return () => {
