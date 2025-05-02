@@ -1,6 +1,6 @@
 import React, { useState }from "react";
-// import { books } from "../data";
-import Book from "../components/ui/Book";
+import { books } from "../data";
+import Book from "../components/UI/Book";
 
 const Books = ( {books: initialBooks } ) => {
     const [books, setBooks] = useState(initialBooks);

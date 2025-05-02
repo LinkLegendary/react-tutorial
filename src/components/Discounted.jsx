@@ -1,6 +1,6 @@
 import React from 'react'
 import { books } from '../data'
-import Book from "./ui/Book"
+import Book from "./UI/Book"
 const Discounted = () => {
   return (
     <section id="recent">
